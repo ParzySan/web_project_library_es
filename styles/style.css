@@ -373,23 +373,23 @@
   width: auto; /* Ajusta el ancho según el contenido */
 }
 
-.footer__column--content {
+.footer__column_content {
   display: flex;
   align-content: flex-start;
   gap: 80px; /* Espacio de 80px entre las columnas de horarios y redes sociales */
 
-  background-color: yellow;
+  /*background-color: yellow;*/
 }
 
-.footer__column--logo {
+.footer__column_logo {
   align-items: flex-start;
-  background-color: aqua;
+  /*background-color: aqua;*/
 }
 
 .footer__column_content_hours {
   width: auto;
   margin-top: 0;
-  background-color: violet;
+  /*background-color: violet; */
 }
 
 .footer__column_content_social {
