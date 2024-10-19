@@ -351,12 +351,13 @@
 }
 
 .footer {
-  background-color: #000; /* Fondo negro */
+  background-color: #1f1f1f; /* Fondo negro */
   color: #fff; /* Texto blanco */
-  padding: 80px 60px; /* Espaciado superior e inferior de 80px, lateral de 60px */
+  padding: 60px 80px; /* Espaciado superior e inferior de 80px, lateral de 60px */
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -389,12 +390,14 @@
 .footer__column_content_hours {
   width: auto;
   margin-top: 0;
+  margin-left: auto;
   /*background-color: violet; */
 }
 
 .footer__column_content_social {
   width: auto;
   margin-top: 0;
+  margin-left: 80px;
 }
 
 .footer__logo {
@@ -404,8 +407,8 @@
 }
 
 .footer__column-heading {
-  margin-bottom: 10px; /* Espacio inferior */
   font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .footer__list {
@@ -424,6 +427,9 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
