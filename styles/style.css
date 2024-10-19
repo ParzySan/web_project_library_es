@@ -368,7 +368,7 @@
 }
 
 .footer__column {
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
   width: auto; /* Ajusta el ancho según el contenido */
 }
