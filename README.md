@@ -5,9 +5,16 @@ La página web de la Biblioteca Triple Peaks es el tercer proyectocuyo objetivo 
 ## Características del proyecto
 
 HTML5 semántico → estructura clara y accesible para mejorar SEO y usabilidad.
+
 CSS3 → estilos, animaciones y personalización visual.
+
 Flexbox → diseño flexible de contenedores y distribución de elementos.
+
 Grid Layout → organización responsiva en distintas secciones.
+
 Posicionamiento absoluto y relativo → para ubicar elementos decorativos y de contenido.
+
 Metodología BEM (Block, Element, Modifier) → estilos escalables y reutilizables.
+
 Media Queries (CSS responsive design) → adaptación a diferentes tamaños de pantalla (desktop, tablet, móvil).
+
